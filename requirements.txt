@@ -1,0 +1,15 @@
+# CPU-Build von PyTorch (kein NVIDIA-GPU auf dem Entwicklungsrechner).
+# Wer eine NVIDIA-GPU hat: torch/torchvision vorher mit dem passenden CUDA-Index installieren,
+# siehe https://pytorch.org/get-started/locally/
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+
+ultralytics          # YOLO für die Münz-Detection
+opencv-python        # klassische Bildverarbeitung / Preprocessing
+numpy
+matplotlib
+scikit-learn         # Metriken, Confusion Matrix, Splits
+pyyaml
+tqdm
+ipykernel            # Notebooks in VS Code / Jupyter
